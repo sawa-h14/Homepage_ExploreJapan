@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Japan</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,italic,bold,semi-bold">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+      <script>
+        $(function() {
+            $('.openbtn').on('click', function(){
+                $(this).toggleClass('active');
+                if($('.topnav').hasClass('openmenu')) {
+                  $('.topnav').removeClass('openmenu')
+                } else {
+                  $('.topnav').addClass('openmenu')
+                }
+            })
+        })
+      </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="home.html" class="logo">
+          <img src="images/logo_transparent_h50.png" alt="ExploreJapan">
+        </a>
+        <a href="home.html">Home</a>
+        <a href="aboutjapan.html" class="active">About Japan</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='travelplans.html'">
+            Travel Plans
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="travelplan/architecture.html">Japanese Architectures</a>
+            <a href="travelplan/animeandgame.html">Anime & Game</a>
+            <a href="travelplan/snowresort.html">Snow Resort</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <div class="openbtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="title">
+          <div class="transbox">
+            <h1>About Japan</h1>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Where is Japan?</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/world_map.png" alt="A world map highlighted Japan.">
+            </div>
+            <div class="column">
+              <p>Japan is located in East Asia. </p>
+              <p>This air travel distance from USA is equal to 6,321 miles. It takes 11.29 hours to arrive.</p>
+              <p>Japan has only half the land area of Texas.However, people live about five times the population of Texas (about 130 million).</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>
+                <p>Japan consists of <a href="https://bluejapan.org/geography/islands-of-japan/" target="_blank">5 main groups</a> of islands; Hokkaido, Honshu, Shikoku, Kyushu, and Okinawa.</p>
+                <p>Tokyo is the capital city of Japan.</p>
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/map-japan-english.png" alt="Japan Map">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>What is the annual climate like in Japan?</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/Monthly Rainfall in Columbus and Tokyo.png" alt="Average Monthly Rainfall">
+            </div>
+            <div class="column">
+              <p>
+                The climate in Japan varies greatly depending on the region and time of year. 
+                In general, Japan experiences four distinct seasons, similar to the United States.</p>
+              <p>
+                However, Japan is relatively prone to rain throughout the year, especially from June to July when rainfall occurs continuously
+                As a result, humidity levels can reach nearly 80% during the summer months.
+                Therefore, taking measures to manage humidity is important for Japanese housing.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>
+                I generally recommend traveling to Japan in spring. 
+                The climate is relatively stable, not too hot, and you will see the country adorned with cherry blossoms, 
+                tinting it pink everywhere you go. 
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/yu-kato-824OwkP7sgk-unsplash.jpg" alt="Cherry blossom.">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>What is the main transportation?</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/fikri-rasyid-3ba59K57wE4-unsplash.jpg" alt="Shinkansen">
+            </div>
+            <div class="column">
+              <p>People living in urban areas use trains to get around.</p>
+              <p>In addition, the <a href="https://www.jrailpass.com/shinkansen-bullet-trains" target="_blank">Shinkansen (bullet train)</a> runs through Japan, and it is possible to travel most main places in the mainland by this means of transportation.</p>
+              <p>(Of course, cars are also one of main transportation.)</p>
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Greeting style</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                In Japan, bowing is a more common greeting than shaking hands, and it is a gesture that signifies respect towards others.
+                Surprisingly, bowing is utilized in various situations, including showing appreciation, apologizing, and greeting.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/29014257_s.jpg" alt="Greeting">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column wimg haslicense">
+              <img src="images/31621697091_39794f39c4_w.jpg" alt="Bowing deer">
+              <p class="license">
+                "<a href="https://www.flickr.com/photos/lengcheng/31621697091">
+                  Ojigi!
+                </a>"
+                by <a href="https://www.flickr.com/photos/lengcheng/">Leng Cheng</a>
+                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>.
+              </p>
+            </div>
+            <div class="column">
+              <p>
+                Also in Nara Prefecture, located in the western part of Japan, there are interesting deer that bow in imitation of humans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="bottomnav">
+          <a href="home.html">Home</a> | 
+          <a href="aboutjapan.html">About Japan</a> | 
+          <a href="travelplans.html">Travel Plans</a> | 
+          <a href="travelplan/architecture.html">Plan A: Japanese Architecture</a> | 
+          <a href="travelplan/animeandgame.html">Plan B: Anime & Game</a> | 
+          <a href="travelplan/snowresort.html">Plan C: Snow Resort</a> | 
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2024 Sawako Hirosawa</p>
+      </div>
+    </footer>
+  </body>
+</html>

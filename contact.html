@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,italic,bold,semi-bold">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <script>
+      $(function() {
+          $('.openbtn').on('click', function(){
+              $(this).toggleClass('active');
+              if($('.topnav').hasClass('openmenu')) {
+                $('.topnav').removeClass('openmenu')
+              } else {
+                $('.topnav').addClass('openmenu')
+              }
+          })
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="home.html" class="logo">
+          <img src="images/logo_transparent_h50.png" alt="ExploreJapan">
+        </a>
+        <a href="home.html">Home</a>
+        <a href="aboutjapan.html">About Japan</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='travelplans.html'">
+            Travel Plans
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="travelplan/architecture.html">Japanese Architectures</a>
+            <a href="travelplan/animeandgame.html">Anime & Game</a>
+            <a href="travelplan/snowresort.html">Snow Resort</a>
+          </div>
+        </div>
+        <a href="contact.html" class="active">Contact</a>
+        <div class="openbtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="title">
+          <div class="transbox">
+            <h1>Contact</h1>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>About me</h2>
+          <div class="row">
+            <div class="column">
+              <p>Name: Sawako Hirosawa</p>
+              <p>Pronouns: She/her/hers</p>
+              <p>National origin: Japan</p>
+              <p>Email: <a href="mailto:sawa.hirosawa.sawa14@gmail.com">sawa.hirosawa.sawa14@gmail.com</a></p>
+              <p>linkedin: <a target="_blank" href="http://www.linkedin.com/in/sawako-hirosawa-33668727b">link</a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="balloon2-right">
+              <p>
+                Once again, thank you for visiting my website!
+                I hope you enjoy the information I have provided and that you will be interested in Japan.
+                Of course, these are only some of the places I have introduced.
+                  If you are interested in more, feel free to contact me.
+              </p>
+              <div class="balloon-dammy"></div>
+            </div>
+            <img class="myphoto" src="images/myphoto.jpg" alt="my photo">
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Contact Form</h2>
+          <div class="row">
+            <div class="column">
+              <form class="contact" action="contact" method="post">
+                <label for="firstname">First Name:</label><input type="text" id="firstname" name="firstname"><br>
+                <label for="lastname">Last Name:</label><input type="text" id="lastname" name="lastname"><br>
+                <label for="email">Email:</label><input type="email" id="email" name="email"><br>
+                <label for="comments">Comments:</label><br>
+                <textarea rows="5" cols="60" id="comments" name="comments"></textarea><br>
+                <input type="submit" value="Submit" onclick="alert('Sorry, this form does not work yet.');">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="bottomnav">
+          <a href="home.html">Home</a> | 
+          <a href="aboutjapan.html">About Japan</a> | 
+          <a href="travelplans.html">Travel Plans</a> | 
+          <a href="travelplan/architecture.html">Plan A: Japanese Architecture</a> | 
+          <a href="travelplan/animeandgame.html">Plan B: Anime & Game</a> | 
+          <a href="travelplan/snowresort.html">Plan C: Snow Resort</a> | 
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2024 Sawako Hirosawa</p>
+      </div>
+    </footer>
+  </body>
+</html>

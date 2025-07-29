@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Travel Plans</title>
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,italic,bold,semi-bold">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+      <script>
+        $(function() {
+            $('.openbtn').on('click', function(){
+                $(this).toggleClass('active');
+                if($('.topnav').hasClass('openmenu')) {
+                  $('.topnav').removeClass('openmenu')
+                } else {
+                  $('.topnav').addClass('openmenu')
+                }
+            })
+        })
+      </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="../home.html" class="logo">
+          <img src="../images/logo_transparent_h50.png" alt="ExploreJapan">
+        </a>
+        <a href="../home.html">Home</a>
+        <a href="../aboutjapan.html">About Japan</a>
+        <div class="dropdown">
+          <button class="dropbtn active" onclick="window.location.href='../travelplans.html'">
+            Travel Plans
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="architecture.html">Japanese Architectures</a>
+            <a href="animeandgame.html">Anime & Game</a>
+            <a href="snowresort.html">Snow Resort</a>
+          </div>
+        </div>
+        <a href="../contact.html">Contact</a>
+        <div class="openbtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="title">
+          <div class="transbox">
+            <h1>Anime & Game</h1>
+            <p>I have selected some currently popular destinations for anime and gaming enthusiasts.</p>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Akihabara</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="../images/pat-krupa-Of2rc0KOfVU-unsplash.jpg" alt="Akihabara">
+            </div>
+            <div class="column">
+              <p>Akihabara, often referred to as "Akiba," is a district in Tokyo, that holds immense appeal for game and anime enthusiasts,
+                 particularly among foreign visitors with an interest in Japanese pop culture.
+              </p>
+              <p>
+                Akihabara is filled with stores offering a vast array of anime-related merchandise, including figurines, posters, clothing, and collectibles.
+                Fans can find items featuring characters from popular anime series, making it a paradise for collectors.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>
+                Akihabara is famous for its many electronics retail stores and game centers, and is visited by game enthusiasts and otaku of all ages.
+                Visitors can find a wide range of video games, consoles, accessories, and even rare retro gaming items.
+                It's a haven for gamers looking to explore the latest releases or nostalgic classics.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/george-kedenburg-iii-v4UVbVgsW-4-unsplash.jpg" alt="Old game">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Universal Studios Japan</h2>
+          <div class="row haslicense">
+            <div class="column">
+              <p>
+                Universal Studios Japan (USJ) holds significant appeal for both game and anime enthusiasts.
+                While primarily known for its themed attractions based on popular movies and franchises,
+                USJ also offers experiences that cater to fans of gaming and anime.
+              </p>
+              <p>
+                As with Universal Studios Hollywood, there is an amusement area themed Super Mario World at Universal Studios Japan,
+                 immersing visitors in the iconic world of Mario. Additionally, USJ frequently collaborates with popular anime and gaming
+                  franchises to offer limited-time attractions and events.
+                   These collaborations may include special themed areas, interactive experiences,
+                    or merchandise offerings based on well-known anime or game series.
+              </p>
+            </div>
+            <div class="column wimg haslicense">
+              <img src="images/Universal_Studios_in_Japan.jpg" alt="Universal Studios in Japan">
+              <p class="license">
+                "<a href="https://commons.wikimedia.org/wiki/File:Universal_Studios_in_Japan.jpg">
+                  Universal Studios in Japan
+                </a>"
+                by <a href="https://commons.wikimedia.org/w/index.php?title=User:Leeyj0401&action=edit&redlink=1">Leeyj0401</a>
+                is licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Ghibli Museum</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                If you love <a href="https://ghiblicollection.com/" target="_blank">Ghibli</a> movies, the Ghibli Museum, located in Mitaka, Tokyo, will be a heavenly place for you.
+              </p>
+              <p>
+                The Ghibli Museum features a variety of interactive exhibits that allow visitors to immerse themselves in the enchanting world of Studio Ghibli.
+                From life-size replicas of film sets to hands-on activities that demonstrate animation techniques,
+                visitors can experience the magic of Studio Ghibli's films in a tangible and engaging way. 
+              </p>
+              <p>
+                In addition, the museum presents films that can only be seen in its museum.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/max-harlynking-WlOux-t8tbk-unsplash.jpg" alt="Ghibli Museum">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Game and anime-themed cafes</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                In Japan, there are many "<a href="https://zenpop.jp/en/blog/post/845/the-top-5-japanese-collaboration-cafes" target="_blank">collaboration cafes</a>" based on game or anime concepts.
+                These cafes serve food and beverages based on character motifs, and sometimes there are even places where you can take pictures with the characters.
+                Some of these cafes are only open for a limited time, so if you want to visit one, check carefully to see when it will be open.
+              </p>
+              <p>
+                I cannot post any pictures related those cafes here due to copyright issues, but if you are interested, take a look at the links below.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/chloe-evans-4Hb4v66NBCk-unsplash.jpg" alt="Cafe">
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <h3>links</h3>
+              <p><a href="https://www.pokemoncenter-online.com/cafe/en/" target="_blank">Pokemon cafe</a></p>
+              <p><a href="https://gundam-factory.net/en/gundam-cafe/" target="_blank">Gundam cafe</a></p>
+              <p><a href="https://www.jp.square-enix.com/cafe/tokyo/pc/index.php" target="_blank">SQUARE ENIX cafe</a> (Japanese Only)</p>
+              <p><a href="https://www.capcom.co.jp/amusement/capcomcafe/ikebukuro/" target="_blank">Capcom cafe</a> (Japanese Only)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="bottomnav">
+          <a href="../home.html">Home</a> | 
+          <a href="../aboutjapan.html">About Japan</a> | 
+          <a href="../travelplans.html">Travel Plans</a> | 
+          <a href="architecture.html">Plan A: Japanese Architecture</a> | 
+          <a href="animeandgame.html">Plan B: Anime & Game</a> | 
+          <a href="snowresort.html">Plan C: Snow Resort</a> | 
+          <a href="../contact">Contact</a>
+        </div>
+        <p>&copy; 2024 Sawako Hirosawa</p>
+      </div>
+    </footer>
+  </body>
+</html>

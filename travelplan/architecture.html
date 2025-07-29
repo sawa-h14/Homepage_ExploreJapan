@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Travel Plans</title>
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,italic,bold,semi-bold">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+      <script>
+        $(function() {
+            $('.openbtn').on('click', function(){
+                $(this).toggleClass('active');
+                if($('.topnav').hasClass('openmenu')) {
+                  $('.topnav').removeClass('openmenu')
+                } else {
+                  $('.topnav').addClass('openmenu')
+                }
+            })
+        })
+      </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="../home.html" class="logo">
+          <img src="../images/logo_transparent_h50.png" alt="ExploreJapan">
+        </a>
+        <a href="../home.html">Home</a>
+        <a href="../aboutjapan.html">About Japan</a>
+        <div class="dropdown">
+          <button class="dropbtn active" onclick="window.location.href='../travelplans.html'">
+            Travel Plans
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="architecture.html">Japanese Architectures</a>
+            <a href="animeandgame.html">Anime & Game</a>
+            <a href="snowresort.html">Snow Resort</a>
+          </div>
+        </div>
+        <a href="../contact.html">Contact</a>
+        <div class="openbtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="title">
+          <div class="transbox">
+            <h1>Japanese Architectures</h1>
+            <p>I have selected a few historical places that I have personally visited, where you can immerse yourself in Japanese culture.</p>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Many temples in Kyoto</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/yanghong-yu-Us04UTQihgc-unsplash.jpg" alt="Kiyomizu temple">
+            </div>
+            <div class="column">
+              <p><a href="https://www.kyoto.travel/en/" target="_blank">Kyoto</a>, which was the capital of Japan more than 150 years ago, has many historical sites. There you will see a lot of Japanese architecture.</p>
+              <p>
+                Among them, Kiyomizu-dera Temple,a historic temple with a history of about 1,200 years, is a very standard place that attracts many tourists.
+                The pillars of the temple are assembled by skillfully combining lumber with each other.
+                Amazingly, not a single nail is used in the pillars supporting the main hall of Kiyomizu-dera Temple.
+                At Kiyomizu-dera, about 1,000 mountain maples planted on the temple grounds turn red, yellow, and orange in autumn.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>If you are visiting Kyoto, you should not miss Kinkakuji and Ginkakuji temples.</p>
+              <p>
+                If you are visiting Kyoto, you cannot miss Kinkakuji Temple. 
+                The temples are decorated in gold. Gold foil is applied to the temple to represent the golden color of the temple. 
+                The first Kinkakuji was built in 1408. At that time, however, it was destroyed by fire many times. 
+                Each time it was rebuilt, it was rebuilt in the same manner. 
+                It is said to represent the economic wealth and riches of the local community. 
+                You are not allowed to enter the interior of the Golden Pavilion, but you can easily view the interior of the Golden Pavilion from a distance.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="../images/482722_s.jpg" alt="Kinkakuji temple">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Itsukushima Shrine</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                I would like to introduce a mysterious spot in Japan, <a href="https://www.itsukushimajinja.jp/en/index.html" target="_blank">Itsukushima Shrine</a>. 
+                Itsukushima is an island in the western part of the Inland Sea of Japan, located in the northwest of Hiroshima Bay.
+              </p>
+              <p>
+                Itsukushima Shrine is a place that can be enjoyed in completely different ways depending on the tide.
+                 At high tide, the graceful shrine pavilions appear to float in the sea, and at low tide, visitors can walk to the Otorii (Grand Gate).
+                Tide times and tidal levels change with the seasons. 
+              </p>
+              <p>
+                Sometimes the ebb and flow is at night, but Itsukushima Shrine is even more mysterious when illuminated.
+                Because the entire island was worshipped as an island of God, the shrine was built not on land, but on the tidal waters.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/nicki-eliza-schinow-BjJP2TN8WoI-unsplash.jpg" alt="Itsukushima shrine">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/joan-tran-UxP1_RUV2B8-unsplash.jpg" alt="map">
+            </div>
+            <div class="column">
+              <p>
+                It takes less than 5 hours to get there from Tokyo by Shinkansen and ferry.
+              </p>
+              <p>
+                If you want to see this shrine at both high and low tide, you will need at least about 6 hours.
+                You can also enjoy sightseeing on the island while waiting for the tide to rise.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Senso-ji (Asakusa Kannon Temple)</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/tim-depickere-ng7_kYE2nGI-unsplash.jpg" alt="Senso-ji">
+            </div>
+            <div class="column">
+              <p>
+                If you do not have enough time to travel, <a href="https://www.senso-ji.jp/english/" target="_blank">Senso-ji</a> may be the best choice. Senso-ji is one of most popular temples in Tokyo.
+                Senso-ji Temple is the oldest temple in Tokyo, with a history of about 1,400 years.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <p>
+                The Kaminarimon, meaning "Thunder Gate," is the most renowned attraction in Senso-ji, 
+                and its large red lanterns, which have an outstanding impact, are a symbol of the area.
+                It features two statues: the God of Thunder on the left side and the Wind God on the right side.
+                They are dedicated with the wish to protect the temple from wind and flood damage.
+              </p>
+              <p>
+                You can easily reach here by bus or train.
+              </p>
+            </div>
+            <div class="column wimg">
+              <img src="images/pexels-yumiko-yamanaka-5425522.jpg" alt="Senso-ji">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="bottomnav">
+          <a href="../home.html">Home</a> | 
+          <a href="../aboutjapan.html">About Japan</a> | 
+          <a href="../travelplans.html">Travel Plans</a> | 
+          <a href="architecture.html">Plan A: Japanese Architecture</a> | 
+          <a href="animeandgame.html">Plan B: Anime & Game</a> | 
+          <a href="snowresort.html">Plan C: Snow Resort</a> | 
+          <a href="../contact">Contact</a>
+        </div>
+        <p>&copy; 2024 Sawako Hirosawa</p>
+      </div>
+    </footer>
+  </body>
+</html>

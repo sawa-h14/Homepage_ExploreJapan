@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Travel Plans</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,italic,bold,semi-bold">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+      <script>
+        $(function() {
+            $('.openbtn').on('click', function(){
+                $(this).toggleClass('active');
+                if($('.topnav').hasClass('openmenu')) {
+                  $('.topnav').removeClass('openmenu')
+                } else {
+                  $('.topnav').addClass('openmenu')
+                }
+            })
+        })
+      </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="home.html" class="logo">
+          <img src="images/logo_transparent_h50.png" alt="ExploreJapan">
+        </a>
+        <a href="home.html">Home</a>
+        <a href="aboutjapan.html">About Japan</a>
+        <div class="dropdown">
+          <button class="dropbtn active" onclick="window.location.href='travelplans.html'">
+            Travel Plans
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="travelplan/architecture.html">Japanese Architectures</a>
+            <a href="travelplan/animeandgame.html">Anime & Game</a>
+            <a href="travelplan/snowresort.html">Snow Resort</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact</a>
+        <div class="openbtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="title">
+          <div class="transbox">
+            <h1>Travel Plans</h1>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Are you interested in Japanese architecture?</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/482722_s.jpg" alt="Kinkakuji temple">
+            </div>
+            <div class="column">
+              <p>Japan has many beautiful architectural structures with a long history that match the natural beauty of the country.</p>
+              <p>
+                A popular tourist style is to visit famous temples throughout the country.
+                All temples are rich in design and style. Each temple has its own history and gives tourists a sense of traditional Japanese culture.
+              </p>
+              <p><b>Delve deeper into <a href="travelplan/architecture.html">the fascinating realm of Japanese architecture.</a></b></p>
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Do you like Japanese animations or games?</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                Many foreigners are drawn to Japan for its rich gaming and anime culture. 
+                The country boasts a plethora of iconic anime titles such as "Demon Slayer," "Naruto," and beloved Ghibli films. 
+                Additionally, Japan is home to renowned video game brands like Nintendo, Sega, and Square Enix.
+              </p>
+              <p>
+                This plan aims to showcase the diverse range of experiences available for enthusiasts of these amusements and provide 
+                opportunities to immerse oneself in their captivating worlds while visiting Japan.
+              </p>
+              <p><b>Discover more about <a href="travelplan/animeandgame.html">the popular destinations linked to anime and gaming.</a></b></p>
+            </div>
+            <div class="column wimg">
+              <img src="images/pat-krupa-Of2rc0KOfVU-unsplash.jpg" alt="Akihabara">
+            </div>
+          </div>
+        </div>
+        <div class="transbox">
+          <h2>Are you addicted to snow sports?</h2>
+          <div class="row">
+            <div class="column wimg">
+              <img src="images/oliver-dickerson-FJRRmgV50pg-unsplash.jpg" alt="Niseko.">
+            </div>
+            <div class="column">
+              <p>
+                It is an undeniable fact that despite being a small island nation in Asia, Japan is home to vast snow-capped mountains.
+                Some people come to Japan for snow sports rather than tourism.
+                Although Japanese snow-capped mountains are more compact compared to American ones like the mountains in Colorado,
+                 they feature steep slopes that offer exciting experiences.
+              </p>
+              <p><b>Discover more about <a href="travelplan/snowresort.html"> the fantastic snow resorts awaiting enthusiasts.</a></b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="bottomnav">
+          <a href="home.html">Home</a> | 
+          <a href="aboutjapan.html">About Japan</a> | 
+          <a href="travelplans.html">Travel Plans</a> | 
+          <a href="travelplan/architecture.html">Plan A: Japanese Architecture</a> | 
+          <a href="travelplan/animeandgame.html">Plan B: Anime & Game</a> | 
+          <a href="travelplan/snowresort.html">Plan C: Snow Resort</a> | 
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2024 Sawako Hirosawa</p>
+      </div>
+    </footer>
+  </body>
+</html>
